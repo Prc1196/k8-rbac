@@ -12,13 +12,9 @@ data:
       - default-trainee
       userarn: arn:aws:iam::713881819246:user/suresh
       username: suresh
-    - groups:
-      - eks-console-dashboard-restricted-access-group
-      userarn: arn:aws:iam::444455556666:user/my-user
-      username: my-user
 kind: ConfigMap
 metadata:
   creationTimestamp: "2025-06-16T05:46:05Z"
   name: aws-auth
   namespace: kube-system
-  uid: 932917b1-6af4-46e4-be4d-74211890b0cd
+  # uid: 932917b1-6af4-46e4-be4d-74211890b0cd
